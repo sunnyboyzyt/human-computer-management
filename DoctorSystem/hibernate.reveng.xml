@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="T_Answer" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TAnswer">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_AnswerKey" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TAnswerKey">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Chart" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TChart">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_ChiefComplaint" schema="dbo"
+		catalog="db_DoctorSystem" class="model.TChiefComplaint">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Class" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TClass">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_EasyExamine" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TEasyExamine">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Eexam" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TEexam">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_ExamTime" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TExamTime">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Knowledge" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TKnowledge">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Life" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TLife">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_MentalSociety" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TMentalSociety">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_NowSick" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TNowSick">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_OtherExamine" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TOtherExamine">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_PastSick" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TPastSick">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Patient" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TPatient">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Personal" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TPersonal">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Photo" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TPhoto">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_QuestionKey" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TQuestionKey">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_QuestionType" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TQuestionType">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Role" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TRole">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Score" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TScore">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_ScoreScale" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TScoreScale">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_SickInformation" schema="dbo"
+		catalog="db_DoctorSystem" class="model.TSickInformation">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_SickType" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TSickType">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Unit" schema="dbo" catalog="db_DoctorSystem"
+		class="model.TUnit">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+<table name="T_User" schema="dbo" catalog="db_DoctorSystem"
+	class="model.TUser">
+	<primary-key>
+		<generator class="assigned"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>

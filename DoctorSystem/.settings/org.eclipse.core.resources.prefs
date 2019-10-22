@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/business/impl/AnswerDAOImpl.java=UTF-8
+encoding//src/business/impl/AnswerKeyDAOImpl.java=UTF-8
+encoding//src/business/impl/ChiefComplaintDAOImpl.java=UTF-8
+encoding//src/business/impl/ClassDAOImpl.java=UTF-8
+encoding//src/business/impl/EasyExamineDAOImpl.java=UTF-8
+encoding//src/business/impl/EexamDAOImpl.java=UTF-8
+encoding//src/business/impl/ExamTimeDAOImpl.java=UTF-8
+encoding//src/business/impl/LifeDAOImpl.java=UTF-8
+encoding//src/business/impl/MentalSocietyDAOImpl.java=UTF-8
+encoding//src/business/impl/OtherExamineDAOImpl.java=UTF-8
